@@ -1,0 +1,96 @@
+div #post-placeholder-container{
+    padding: 20px;
+    margin: 20px;
+    position: fixed;
+    width: 90vw;
+    height: 80vh;
+    border: 5px black solid;
+    color: black;
+    overflow-y:scroll;
+    overflow-x:hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    bottom:20px;
+    text-align: left;
+}
+
+div #post-placeholder-container h5{
+    font-size: 25px;
+    font-weight: bold;
+    color: darkslategrey;
+    text-decoration: underline;
+    
+}
+button#close-button{
+    position: relative;
+    margin-top: 0px;
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    float: right;
+}
+button#close-button:hover{
+    background-color: red;
+    transition: background-color 0.5s   ease-out;
+}
+
+div.card-body{
+    border: 1px black solid;
+    margin-top: 25px;
+}
+
+button.button_more{
+    width: 300px;
+    height: 60px;
+    padding: 5px;
+    margin-top: 20px;
+    border: none;
+    font-weight: bold;
+    background-color: rgb(190, 185, 185);
+    color: black;
+    border-radius: 10px;
+}
+button.button_more:hover{
+    color: white;
+    background-color: black;
+    transition: background-color 0.5s   ease-out;
+}
+
+
+div #user-placeholder-container{
+    padding: 20px;
+    margin: 20px;
+    position: fixed;
+    width: 50vw;
+    height: 80vh;
+    border: 5px black solid;
+    color: black;
+    overflow-y:scroll;
+    overflow-x:hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    bottom:20px;
+    text-align: left;
+}
+
+
+button#close-button-user{
+    position: relative;
+    margin-top: 0px;
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    float: right;
+}
+button#close-button-user:hover{
+    background-color: red;
+    transition: background-color 0.5s   ease-out;
+}
+
+
+
+
